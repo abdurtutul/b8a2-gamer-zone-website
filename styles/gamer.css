@@ -21,7 +21,12 @@ header{
     font-size: 45px;
     font-weight: 700;
     margin-top: 38px;
+    
    
+}
+.gamer-name{
+    color: #FF42A5;
+
 }
 
 nav{
@@ -65,6 +70,19 @@ nav li a{
     cursor: pointer;
 }
 /* header part end */
+/* footer section */
+footer{
+    max-height: 636px;
+    background: #0B0223;
+    color: #FFF;
+    
+}
+footer> .section-title{
+    margin-left: 700px;
+    margin-right: 700px;
+    padding: 120px;
+ 
+}
 
 
 /* mobile devic resposive */
