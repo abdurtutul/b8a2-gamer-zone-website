@@ -6,3 +6,62 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* head section start */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    max-height: 130px;
+}
+.header-img{
+    width: 86.041px;
+    height: 40px;
+}
+/* gamer header */
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 38px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin-top: 54px;
+    color: #3C354F;
+    
+}
+nav li a{
+    text-decoration: none;
+}
+.title-img{
+    width: 33.916px;
+    height: 24px;
+   
+
+    
+    
+}
+.media-title{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding:3px 16px;
+    margin-bottom: 55px;
+    gap: 18px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.media-title:hover{
+    cursor: pointer;
+}
+/* header part end */
