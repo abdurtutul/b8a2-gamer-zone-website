@@ -28,6 +28,7 @@ header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     max-height: 130px;
+
 }
 .header-img{
     width: 86.041px;
@@ -88,16 +89,24 @@ nav li a{
 }
 /* header part end */
 /* banner section */
-
+.banner-all{
+    display: flex;
+    max-height: 700px;
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    
+}
 .banner{
-    margin-left: 244px;
-    margin-top: 148px;
-    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    margin-left: 240px;
     width: 901px;
-    height: 700px;
+    max-height: 700px;
+    margin-right: 370px;
+    margin-top: 148px;
+    /* padding-left: 240px; */
+    
 }
 .banner-title{
     color: #0B0223;
+    
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
@@ -108,9 +117,7 @@ nav li a{
     margin-right: 240px;
 
 }
-.banner-all{
-    display: flex;
-}
+
 .goat{
     font-size: 95px;
     font-weight: 800;
@@ -137,7 +144,51 @@ nav li a{
     font-size: 20px;
     font-weight: 500;
 }
+/* we are gamer */
+.main-part{
+    display: flex;
+}
+.main{
+    /* margin-right: 240px; */
+    text-align: right;
+}
+.main-title{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 95px;
+    margin-bottom: 24px;
+}
+.main-description{
+    width: 520px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.main-btn{
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 
+
+}
+.main-purpose{
+    margin-bottom: 96px;
+
+}
+.main-img{
+    width: 868px;
+    height: 489px;
+    margin-left: 240px;
+    margin-right: 50px;
+
+}
   
 
 
@@ -150,6 +201,7 @@ footer{
     background: #0B0223;
     color: #FFF;
     
+    
 }
 footer> .section-title{
     margin-left: 700px;
@@ -157,22 +209,37 @@ footer> .section-title{
     padding: 120px;
  
 }
+.hide{
+    display: none;
+}
 
 
 /* mobile devic resposive */
 @media screen and (max-width: 576px) {
+    header{
+        max-height: 350px;
+        max-width: 576px;
+    }
     nav, nav>ul{
         flex-direction: column;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
         align-items: center;
 
     }
-    header{
-        max-height: 350px;
-    }
+    
     nav>ul{
         margin-top: 10px;
     }
+    /* .banner-all{
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 0;
+       
+    } */
+    .banner-all{
+        flex-direction: column-reverse;
+    }
+    
     
 }
