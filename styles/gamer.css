@@ -473,5 +473,12 @@ nav li a{
     .container{
         padding-bottom:45px;
     }
+    .sponsors-img-container, .sponsors-img-container2{
+        display: grid;
+       grid-template-columns:(2,4fr);
+    }
+    .sponsors-img-container2{
+        margin-left: 150px;
+    }
     
 }
