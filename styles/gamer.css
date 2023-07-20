@@ -148,7 +148,7 @@ nav li a{
 .main-part{
     display: flex;
 }
-.main{
+.main-gamer{
     /* margin-right: 240px; */
     text-align: right;
 }
@@ -434,14 +434,29 @@ nav li a{
     nav>ul{
         margin-top: 10px;
     }
-    /* .banner-all{
+    .banner-all{
         flex-direction: column-reverse;
         margin-top: 0;
         gap: 0;
+        
+        margin-top: 700px;
+        /* max-width: 50%; */
        
-    } */
-    .banner-all{
+    }
+    .banner{
+        margin-left: 5px;
+    }
+    /* .banner-all{
         flex-direction: column-reverse;
+    } */
+    
+    .banner-img img{
+        width: 320px;
+        height: 282px;
+        margin-left: 10px;
+        /* max-height: 100%; */
+        
+        padding: 0px;
     }
     .main-part{
         display: flex;
@@ -449,21 +464,31 @@ nav li a{
         /* justify-content: center; */
         margin-left: 0;
     }
-    .main{
+    .main-part{
         max-width: 250px;
-        text-align: center;
+        /* text-align: center; */
     }
     .main-description{
 
         text-align: center;
         font-size: 16px;
-        margin-left: 0px;
+        margin-left: 50px;
         margin-right: 500px;
     }
-    .main-img{
+    .main-img img{
         width: 90%;
         height: 90%;
+        margin-left: 70px;
+        margin-top: 50px;
     }
+    .main-title, .main-description, .main-btn, .main-purpose, .main-description, .main-unleash{
+        font-size: 90%;
+        /* text-align: center; */
+        max-width:  320px;
+    
+        
+    }
+    
     .funny-img{
         display: flex;
         flex-direction: column;
