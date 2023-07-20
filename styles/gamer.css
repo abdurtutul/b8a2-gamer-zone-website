@@ -419,6 +419,7 @@ nav li a{
 
 /* mobile devic resposive */
 @media screen and (max-width: 576px) {
+    
     header{
         max-height: 350px;
         max-width: 576px;
@@ -458,11 +459,36 @@ nav li a{
         
         padding: 0px;
     }
-    .main-part{
+    .main-part, .instantly{
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
         margin-left: 0;
+        
+    }
+        
+    .ins>*{
+        margin-left: 50px;
+        /* align-items: center; */
+        text-align: center;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        
+    }
+    .ins-hourse .hourse{
+        width: 90%;
+        height: 70%;
+        margin-left: 40px;
+        
+    }
+    .ins-hourse .meow img{
+        bottom: 300px;
+        max-width: 45%;
+        max-height: 200px;
+        margin-left: 300px;
+        margin-top: 250px;
     }
     .main-part{
         max-width: 250px;
@@ -494,15 +520,54 @@ nav li a{
         flex-direction: column;
         margin-left: 0;
     }
-    .container{
-        padding-bottom:45px;
-    }
-    .sponsors-img-container, .sponsors-img-container2{
+    .sponsors-img-container2, .sponsors-img-container {
         display: grid;
-       grid-template-columns:(2,4fr);
+        grid-template-columns: 1fr 1fr;
+        margin-left: 270px;
+        /* margin-right: 280px; */
+        /* max-width: 20%; */
+        gap: -100px;
+        font-size: 8px;
+        justify-content: center;
+        
+        
     }
-    .sponsors-img-container2{
-        margin-left: 150px;
+    .sponsors-box img {
+        text-align: left;
+        max-width: 50px;
+       
+
+
     }
+    .footer-li, .social-icon{
+        display: grid;
+        grid-template-columns: 1fr  1fr 1fr;
+        gap: 30px;
+        margin-left: 100px;
+        font-size: 11px;
+        margin-top: -470px;
+        
+    }
+    .privacy{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+        margin-left: 130px;
+        gap:30px;
+        
+    }
+    .privacy p{
+        font-size: 10px;
+        gap: 30px;
+    }
+    .social-icon {
+        margin-top: 50px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+       
+  
+
     
 }
